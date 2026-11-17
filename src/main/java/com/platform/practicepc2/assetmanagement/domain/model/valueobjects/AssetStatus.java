@@ -5,5 +5,6 @@ package com.platform.practicepc2.assetmanagement.domain.model.valueobjects;
  */
 public enum AssetStatus {
     DRAFT,
-    ACTIVE
+    ACTIVE,
+    TERMINATED
 }
