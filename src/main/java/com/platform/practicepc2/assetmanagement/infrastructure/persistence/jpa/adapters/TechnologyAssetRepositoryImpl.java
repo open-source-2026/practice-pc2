@@ -6,10 +6,13 @@ import com.platform.practicepc2.assetmanagement.domain.repositories.TechnologyAs
 import com.platform.practicepc2.assetmanagement.infrastructure.persistence.jpa.assemblers.TechnologyAssetPersistenceAssembler;
 import com.platform.practicepc2.assetmanagement.infrastructure.persistence.jpa.repositories.TechnologyAssetPersistenceRepository;
 import com.platform.practicepc2.shared.infrastructure.events.DomainEventPublisher;
+import org.springframework.stereotype.Repository;
 
 /**
  * Implementation of the TechnologyAssetRepository interface using JPA.
  */
+
+@Repository
 public class TechnologyAssetRepositoryImpl implements TechnologyAssetRepository {
 
 
